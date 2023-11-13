@@ -1,12 +1,38 @@
 # 抖音直播网页版弹幕爬取 python 实现
 
+
+## 环境
+
+
+#### Mac：
+```shell
+brew install protobuf
+```
+#### Windows:
+```shell
+百度一下
+```
+
+#### pip环境：
+```pip
+requests
+websocket-client
+protobuf
+```
+
+#### .proto转.py
+```shell
+protoc --python_out=. dy.proto
+```
+
+## 运行
 > main.py 填房间地址
 
-```bash
+```shell
 python main.py
 ```
 
-```bash
+```shell
 2023-11-13 09:30:46 [入场] 杨哥 来了
 2023-11-13 09:30:46 [礼物] 可惜不是你 : 小心心 * 1
 2023-11-13 09:30:46 [礼物] ❤️李💖建💗海💘💘💘 : 小心心 * 23
