@@ -10,7 +10,10 @@ brew install protobuf
 ```
 #### Windows:
 ```shell
-百度一下
+下载地址：https://github.com/protocolbuffers/protobuf/releases，添加 "下载路径的bin目录" 到环境变量
+查看是否安装成功：'protoc --version'
+
+安装参考文章：https://blog.csdn.net/Djsnxbjans/article/details/131904947
 ```
 
 #### pip环境：
